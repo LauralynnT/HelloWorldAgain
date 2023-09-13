@@ -15,14 +15,21 @@ namespace HelloWorldAgain
             Console.WriteLine();
 
             int score;
+            int enemyValue;
+            string name;
+            string gamertag;
+            
 
             score = 0;
+            enemyValue = 250;
+            name = "Lauralynn";
+            gamertag = "StupidPieTrap";
 
-            score+=100;
+            score+=enemyValue;
 
             Console.WriteLine("Score: " + score);
 
-            Console.WriteLine();
+            Console.WriteLine(name + " " + gamertag);
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey(true);
         }
