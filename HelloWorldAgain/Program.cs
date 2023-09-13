@@ -10,6 +10,19 @@ namespace HelloWorldAgain
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Variables");
+            Console.WriteLine("---------");
+            Console.WriteLine();
+
+            int score;
+
+            score = 0;
+
+            Console.WriteLine(score);
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey(true);
         }
     }
 }
